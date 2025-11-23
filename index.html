@@ -1,0 +1,339 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> KAMINI JHA</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo"><img src="./image/Logo (1).png" alt="Logo" /></div>
+    <nav class="menu">
+      <a href="#Home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#recommendations">Recommendations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="Home">
+    <div class="hero-content">
+      <h1>I’m KAmini Kumari<br><span class="highlight" style="color: #ffb400;">Front-end</span> Developer</h1>
+      <p>Creative Front-end Developer passionate about building responsive, user-friendly, and visually engaging websites..</p>
+      <button class="btn-primary">HIRE ME →</button>
+    </div>
+
+    <!-- Decorative Shapes -->
+    <div class="decor-shapes">
+      <div class="shape polygon1"></div>
+      <div class="shape rect52"></div>
+      <div class="shape rect51"></div>
+      <div class="shape ellipse15"></div>
+      <div class="shape ellipse13"></div>
+      <div class="shape ellipse16"></div>
+      <div class="shape ellipse12"></div>
+    </div>
+
+    <div class="hero-image">
+      <img src="./image/image1.png" alt="Coder illustration" />
+    </div>
+  </section>
+
+  <!-- Skills & Languages Section with Modal -->
+  <section class="skills-section" id="skills">
+    <h2>Skills & Languages</h2>
+    <button class="add-skill-btn">Add Skill</button>
+  </section>
+
+  <div id="skillModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h3>Add New Skill</h3>
+      <input type="text" placeholder="Skill name" />
+      <div class="modal-actions">
+        <button id="cancelBtn">Cancel</button>
+        <button id="addBtn">Add Skill</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <p class="project-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+      officia consequat duis enim velit mollit. lorem ipsum</p>
+    <div class="project-grid-row">
+      <div class="card">
+        <img src="./image/imagerow3.png" alt="Project 1" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span>
+          <span>CSS</span><span>HTML</span> <span>MongoDB</span></div>
+      </div>
+      <div class="card">
+        <img src="./image/imagerow1.png" alt="Project 2" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span> <span>CSS</span></div>
+
+      </div>
+      <div class="card">
+        <img src="./image/imagerow2.png" alt="Project 3" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span>
+          <span>CSS</span><span>HTML</span> <span>MongoDB</span></div>
+      </div>
+    </div>
+    <div class="project-grid-row">
+      <div class="card">
+        <img src="./image/imagerow1.png" alt="Project 4" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span>
+          <span>CSS</span><span>HTML</span> <span>MongoDB</span></div>
+      </div>
+      <div class="card">
+        <img src="./image/imagerow2.png" alt="Project 5" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span>
+          <span>CSS</span><span>HTML</span> <span>MongoDB</span></div>
+      </div>
+      <div class="card">
+        <img src="./image/imagerow3.png" alt="Project 6" />
+        <h3>How To Make Flyer Design</h3>
+        <p>Lorem Ipsum Dolor Sit Amet...</p>
+        <div class="tags"><span>TypeScript</span><span>ReactJs</span> <span>NextJs</span>
+          <span>CSS</span><span>HTML</span> <span>MongoDB</span></div>
+      </div>
+    </div>
+  </section>
+  <!----recommanded section -->
+  <section class="recommendation-section" id="recommendations">
+    <h2 class="title">Recommendations</h2>
+    <p class="description">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
+      mollit. Lorem ipsum
+    </p>
+
+    <div class="carousel-container">
+      <button class="nav left" id="prev">&#10094;</button>
+      <div class="carousel" id="carousel">
+        <!-- Review 1 -->
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Design is the language of visuals, crafting compelling narratives that captivate audiences, evoke emotions, and shape the way people perceive the world...</p>
+          <div class="profile">
+            <img src="./image/Profile (2).png" alt="James Gouse" />
+            <div>
+              <h4>James Gouse</h4>
+              <span>Graphic Designer</span>
+            </div>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <h3>Amazing Work!</h3>
+          <p>Photography is the art of capturing fleeting moments, transforming them into timeless memories that evoke emotion, inspire creativity, and tell stories...</p>
+          <div class="profile">
+            <img src="./image/Profile.png" alt="Tiana Philips" />
+            <div>
+              <h4>Tiana Philips</h4>
+              <span>Photographer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <h3>Great Quality!</h3>
+          <p>Success in business thrives on vision, strategy, and resilience—transforming challenges into opportunities while creating value that drives growth and lasting impact....</p>
+          <div class="profile">
+            <img src="./image/Profile (1).png" alt="Talan Westervelt" />
+            <div>
+              <h4>Talan Westervelt</h4>
+              <span>Business Man</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <h3>Outstanding Service!</h3>
+          <p>UI/UX design crafts intuitive digital experiences, blending aesthetics with functionality to enhance user engagement and seamless interactions effortlessly....</p>
+          <div class="profile">
+            <img src="./image/Profile (2).png" alt="Sara Kim" />
+            <div>
+              <h4>Sara Kim</h4>
+              <span>UI/UX Designer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 5 -->
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <h3>Highly Recommend!</h3>
+          <p>Product managers drive innovation, balancing user needs with business goals to create impactful solutions that enhance experiences and shape industries....</p>
+          <div class="profile">
+            <img src="./image/Profile.png" alt="David Rao" />
+            <div>
+              <h4>David Rao</h4>
+              <span>Product Manager</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="nav right" id="next">&#10095;</button>
+      <div class="nav-dots" id="dots"></div>
+    </div>
+  </section>
+
+  <!-----contact section -->
+  <section class="contact-section" id="contact">
+    <div class="contact-header">
+      <h2 class="left-title">Leave ME Your Info</h2>
+      <h2 class="right-title">Contact Information</h2>
+    </div>
+
+    <div class="contact-content">
+      <!-- Left: Form -->
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <label>Your Full Name ( Required )</label>
+            <input type="text" />
+          </div>
+          <div class="form-group">
+            <label>Your Email ( Required )</label>
+            <input type="email" />
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" />
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea></textarea>
+          </div>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- Right: Contact Cards -->
+      <div class="contact-info">
+        <div class="info-card">
+          <div class="icon-circle">📍</div>
+          <div class="info">
+            <strong>Country:</strong> <span>Bangladesh</span></p>
+            <strong>City:</strong> <span>Dhaka</span></p>
+            <strong>Streat:</strong> <span>35 Vhatara, Badda</span></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="icon-circle">✉️</div>
+          <div class="info">
+            <strong>Email:</strong><span>Youremail@gmail.com</span></p>
+            <strong>Skype:</strong> <span>@yourusername</span></p>
+            <strong>Telegram:</strong> <span>@yourusername</span></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="icon-circle">📱</div>
+          <div class="info">
+            <strong>Support Services:   </strong> <span>15369</span></p>
+            <strong>Office:</strong> <span>+58 (021)356 587 235</span></p>
+            <strong>Personal:</strong> <span>+58 (021)356 587 235</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logos">
+        <div class="logo-frame"><img src="./image/Frame (1).png" alt="Logo 1"></div>
+        <div class="logo-frame"><img src="./image/Frame (2).png" alt="Logo 2"></div>
+        <div class="logo-frame"><img src="./image/Frame (3).png" alt="Logo 3"></div>
+        <div class="logo-frame"><img src="./image/Frame.png" alt="Logo 4"></div>
+      </div>
+    </div>
+    <div class="logo_img"><img src="./image/Rectangle 98.png" alt="footer-icon" style="margin-left: 80px;"
+        class="footer-main-logo"></div>
+
+    <div class="footer-content">
+      <div class="footer-brand">
+
+        <div class="footer-rating">
+          <div class="rating-block">
+            <img src="./image/Rectangle 97.png" alt="Upwork">
+            <p>4.5/5 Rating On Lorem</p>
+          </div>
+          <div class="rating-block">
+            <img src="./image/Rectangle 99.png" alt="Dribbble">
+            <p>9/10 Rating On Ipsum</p>
+          </div>
+          <div class="rating-block">
+            <img src="./image/Rectangle 100.png" alt="Fiverr">
+            <p>4.5/5 Rating On Dorel</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="link-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>Home</li>
+            <li>Skills</li>
+            <li>Education</li>
+            <li>Projects</li>
+            <li>Recommendations</li>
+
+          </ul>
+        </div>
+
+        <div class="link-section">
+          <h4>Portfolio</h4>
+          <ul>
+            <li>Frontend Development</li>
+            <li>Backend Development</li>
+            <li>Website Design</li>
+            <li>Machine Learning</li>
+            <li>Problem Solving & DSA</li>
+          </ul>
+        </div>
+
+        <div class="link-section">
+          <h4>Connect</h4>
+          <ul class="social-links">
+            <li><img src="./image/Linkedin.png" alt="LinkedIn"></li>
+            <li><img src="./image/instagram.png" alt="Instagram"></li>
+            <li><img src="./image/Facebook.png" alt="Facebook"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Copyright, All Right Reserved</p>
+    </div>
+  </footer>
+</body>
