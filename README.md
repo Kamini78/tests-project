@@ -37,13 +37,6 @@ Responsive Layout (Flexbox / Grid)
 “Creative Front-end Developer passionate about building responsive, user-friendly, and visually engaging websites.”
 Includes interactive UI sections, testimonials carousel, and contact form.
 
-📬 Contact
-
-If you want to connect or collaborate:
-
-📧 Email: youremail@gmail.com
-📱 Phone: +58 (021)356 587 235
-🌍 Location: Dhaka, Bangladesh
 
 📄 How to Use / Run
 # Clone the repository
@@ -60,7 +53,3 @@ index.html
 This is a personal project, but suggestions and improvements are always welcome.
 Feel free to create issues or enhancements.
 
-📢 License
-
-© 2024 — All Rights Reserved.
-This project is created for personal and professional portfolio purposes.
